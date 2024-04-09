@@ -1,0 +1,10 @@
+version: '3.7'
+services:
+  swagger-ui:
+    #image: swaggerapi/swagger-editor:v5.0.0-alpha.92
+    image: jizuzquiza/swagger-editor:next-v5
+    #image: swaggerapi/swagger-editor:v4.12.1 
+    hostname: 'swagger-editor-host'
+    container_name: swagger-editor
+    ports:
+      - 18084:80 
